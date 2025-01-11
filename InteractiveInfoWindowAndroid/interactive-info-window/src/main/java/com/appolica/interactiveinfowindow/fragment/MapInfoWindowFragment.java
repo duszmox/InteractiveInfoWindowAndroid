@@ -34,7 +34,7 @@ public class MapInfoWindowFragment extends Fragment {
 
     private static final String TAG = "MapInfoWindowFragment";
 
-    private GoogleMap googleMap;
+    protected GoogleMap googleMap;
     private InfoWindowManager infoWindowManager;
 
     @Nullable
